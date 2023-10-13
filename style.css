@@ -118,6 +118,11 @@ hr{
     color: #FFFFFF;
     width: 100%;
     text-wrap: wrap;
-    text-align: left;
-    
+    text-align: left;    
+}
+.duo-image{
+    width: auto;
+    justify-content: space-between;
+    height: 650px;
+    display: flex;
 }
