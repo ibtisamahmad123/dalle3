@@ -1,12 +1,16 @@
 .background {
     background-color: #000000;
-    display: flex;
+    
 }
 .navbar{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .nav-left{
     color:#FFFFFF ;
+    flex: 20%;
+
 }
 .nav-left img{
     text-align: left;
@@ -17,12 +21,15 @@
     color: #FFFFFF;
     text-align: left;
     padding-top:  30px;
+    flex: 50%;
+
 }
 .nav-middle p{
     text-align: left;
     display: inline;
     padding: 20px;
     flex-wrap: nowrap;
+    font-family: sans-serif;
     
 
 }
@@ -30,6 +37,9 @@
     color: #FFFFFF;
     text-align: left;
     padding-top:  30px;
+    flex: 30%;
+    font-family: sans-serif;
+
 
 }
 .nav-right p{
@@ -37,6 +47,7 @@
     display: inline;
     padding: 20px;
     flex-wrap: nowrap;
+    font-family: sans-serif;
     
 
 }
@@ -45,8 +56,31 @@
     display: inline-block;
     padding: 0px;
     flex-wrap: nowrap;
+    font-family: sans-serif;
 }
 
 .nav-right .gpt-box p {
     border: 1px solid #FFFFFF;
+}
+.body1{
+    width: 100%;
+}
+.body1 .heading{
+    color: #FFFFFF;
+    font-size: 80px;
+    padding-left: 20%;
+    font-family: sans-serif;
+    
+    
+    
+}
+.body1 .text{
+    color: #FFFFFF;
+    position: relative;
+    bottom: 120px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 30%;
+    font-family: sans-serif;
+    
 }
