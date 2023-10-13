@@ -2,20 +2,29 @@
     background-color: #000000;
     display: flex;
 }
+.navbar{
+    display: flex;
+}
 .nav-left{
     color:#FFFFFF ;
-    flex: 1;
-    padding: 20px;
 }
 .nav-left img{
     text-align: left;
-    width: 150px;;
+    width: 150px;
+    height: 70px;
 }
 .nav-middle{
     color: #FFFFFF;
-    text-align: center;
-    flex: 1;
+    text-align: left;
     padding: 20px;
+}
+.nav-middle p{
+    text-align: left;
+    display: inline;
+    padding: 20px;
+    flex-wrap: nowrap;
+    
+
 }
 .nav-right{
     color: #FFFFFF;
